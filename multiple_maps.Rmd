@@ -14,8 +14,10 @@ source("./visuospatial_compression_analysis.r")
 print(output)
 ```
 
-blabla
+In order to quantify the visuospatial compression, we calculated the average difference between the endpoints.
 
-```{r}
+There were a total of 12 differences: for the small depth (40mm) ...
+
+```{r echo=F}
 print(output.diff)
 ```
