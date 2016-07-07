@@ -8,7 +8,7 @@ Distribution of the endpoints averaged across all subjects. Data is split across
 
 Filled circles: middle position during vertical grasp. Triangles, diamonds and open circles: thumb, index and middle positions during horizontal grasp.\n
 
-```{r echo=F, message=F}
+```{r echo=F, message=F, fig.align='center'}
 setwd("/home/carlo/github/ccamp83.github.io/multiple_maps/")
 source("./visuospatial_compression_analysis.r")
 print(output)
@@ -18,6 +18,7 @@ In order to quantify the visuospatial compression, we calculated the average dif
 
 There were a total of 12 differences: for the small depth (40mm) ...
 
-```{r echo=F}
+```{r echo=F, fig.width=5, fig.height=4, fig.align='center'}
 print(output.diff)
 ```
+
