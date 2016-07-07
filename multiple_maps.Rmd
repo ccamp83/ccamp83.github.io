@@ -14,9 +14,7 @@ source("./visuospatial_compression_analysis.r")
 print(output)
 ```
 
-In order to quantify the visuospatial compression, we calculated the average difference between the endpoints.
-
-There were a total of 12 differences: for the small depth (40mm) ...
+Comparison between difference between endpoints of the vertical grasp (red) and FGA of the horizontal grasp (green).
 
 ```{r echo=F, fig.width=5, fig.height=4, fig.align='center'}
 print(output.diff)
