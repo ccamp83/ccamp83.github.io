@@ -2,12 +2,20 @@
 title: "Egocentric distance vs relative depth encoding"
 ---
 
-
 ### **Endpoints**
+
+Distribution of the endpoints averaged across all subjects. Data is split across relative depth (40 and 50 mm).
+
+Filled circles: middle position during vertical grasp. Triangles, diamonds and open circles: thumb, index and middle positions during horizontal grasp.\n
 
 ```{r echo=F, message=F}
 setwd("/home/carlo/github/ccamp83.github.io/multiple_maps/")
-load("./dat files/theme_shapelab.dat")
 source("./visuospatial_compression_analysis.r")
+print(output)
 ```
 
+blabla
+
+```{r}
+print(output.diff)
+```
