@@ -8,7 +8,7 @@ Distribution of the endpoints averaged across all subjects. Data is split across
 
 Filled circles: middle position during vertical grasp. Triangles, diamonds and open circles: thumb, index and middle positions during horizontal grasp.\n
 
-```{r echo=F, message=F, fig.align='center'}
+```{r echo=F, fig.width=6, fig.height=6, message=F, fig.align='center'}
 setwd("/home/carlo/github/ccamp83.github.io/multiple_maps/")
 source("./visuospatial_compression_analysis.r")
 print(output)
@@ -20,3 +20,6 @@ Comparison between difference between endpoints of the vertical grasp (red) and 
 print(zf.output)
 ```
 
+```{r echo=F, fig.width=5.5, fig.height=4, fig.align='center', message=F}
+print(fga.output)
+```
