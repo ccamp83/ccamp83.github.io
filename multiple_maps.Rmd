@@ -16,7 +16,7 @@ print(output)
 
 Comparison between difference between endpoints of the vertical grasp (red) and FGA of the horizontal grasp (green).
 
-```{r echo=F, fig.width=6, fig.height=6, fig.align='center'}
-print(output.diff)
+```{r echo=F, fig.width=12, fig.height=12, fig.align='center', message=F}
+print(zf.output)
 ```
 
