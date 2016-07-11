@@ -22,4 +22,5 @@ print(zf.output)
 
 ```{r echo=F, fig.width=5.5, fig.height=4, fig.align='center', message=F}
 print(fga.output)
+print(fga.output2)
 ```
